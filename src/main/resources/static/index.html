@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Spring Security Demo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="common/vendor/bootstrap-3.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+			<div class="navbar navbar-default navbar-inverse navbar-fixed-top">
+	        <div class="container-fluid">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a class="navbar-brand" href="index.html">
+	                    <div>Spring Security Demo</div>
+	                </a>
+	            </div>
+	            <div class="navbar-collapse collapse">
+	            </div>
+	        </div>
+	    </div>
+	   	<div class="container">
+				<h1>Home Page</h1>
+				<p>This content should not be visible, until the user has been authenticated and authorized.</p>
+			</div>
+	</div>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="common/vendor/spring-security-csrf-token-interceptor-0.1.5/src/spring-security-csrf-token-interceptor.js"></script>
+  <script src="common/js/global-body.js"></script>
+  <script src="js/controllers/MainCtrl.js"></script>
+  <script src="js/appRoutes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
