@@ -26,7 +26,7 @@
                 var defaultCsrfTokenHeader = 'X-CSRF-TOKEN';
                 var csrfTokenHeaderName = 'X-CSRF-HEADER';
                 var xhr = new XMLHttpRequest();
-                xhr.open('head', '/', false);
+                xhr.open('head', '/index.html', false);
                 xhr.send();
                 var csrfTokenHeader = xhr.getResponseHeader(csrfTokenHeaderName);
                 csrfTokenHeader = csrfTokenHeader ? csrfTokenHeader : defaultCsrfTokenHeader;
